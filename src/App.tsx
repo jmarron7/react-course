@@ -10,7 +10,6 @@ function App() {
   return (
     <>
       <Like onClick={() => console.log("Liked")} />
-      <ListGroup items={items} heading="Cities"></ListGroup>
     </>
   );
 }
